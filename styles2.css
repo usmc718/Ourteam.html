@@ -1,0 +1,15 @@
+/* Additional styles for media.html */
+
+#media-container {
+    display: grid;
+    grid-template-columns: repeat(2, 90px);
+    background-color: lightgreen;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid blue;
+}
+
+.media-item img {
+    max-width: 100%;
+    height: auto;
+}

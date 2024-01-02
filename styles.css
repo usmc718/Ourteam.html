@@ -1,0 +1,20 @@
+/* styles.css */
+
+#teamdisplay {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.team-member {
+    background-color: lightblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Additional styling for team members, adjust as needed */
+.team-member img {
+    max-width: 100%;
+    height: auto;
+}
